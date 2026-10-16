@@ -14,7 +14,7 @@ import series from "./api/pages/series";
 import watch from "./api/pages/watch";
 import download from "./api/pages/download";
 import extra from "./api/pages/extra";
-import { scrapeGenreList } from "./lib/scraper";
+import { scrapeGenreList } from "./lib/scraper.js";
 
 const app = new Hono().basePath("/api");
 
